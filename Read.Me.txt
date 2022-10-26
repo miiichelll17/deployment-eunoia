@@ -1,0 +1,7 @@
+
+conda create -n env_dlib
+conda activate env_dlib
+conda install -c conda-forge dlib
+pip install face-recognition
+pip install flask
+pip install opencv-python
